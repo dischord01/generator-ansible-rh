@@ -1,14 +1,14 @@
-generator-ansible
+generator-ansible-rh
 =================
-`generator-ansible` helps you create ansible playbooks and roles more rapidly.
+`generator-ansible-rh` helps you create ansible playbooks and roles more rapidly.
 
-Inspiered by `generator-ansible`
+Inspired by `generator-ansible`
 
 
 ## Install
 
 ```bash
-npm install -g generator-ansible
+npm install -g generator-ansible-rh
 ```
 
 ## Usage
