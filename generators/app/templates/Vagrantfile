@@ -55,11 +55,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # RHEL 7.2
-  config.vm.define :r7001 do |r7001|
-    r7001.vm.hostname = "rhel7.local"
-    r7001.vm.network :private_network, ip: "192.168.70.101"
-    # r7001.vm.network :forwarded_port, guest: 8443, host: 8443
-    r7001.vm.synced_folder ".", "/vagrant", nfs: true #type: "nfs" 
+  config.vm.define :rhel7 do |rhel7|
+    rhel7.vm.hostname = "rhel7.local"
+    rhel7.vm.network :private_network, ip: "192.168.70.101"
+    # rhel7.vm.network :forwarded_port, guest: 8443, host: 8443
+    rhel7.vm.synced_folder ".", "/vagrant", nfs: true #type: "nfs" 
   end
 
 
