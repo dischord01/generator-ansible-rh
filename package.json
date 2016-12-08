@@ -1,6 +1,6 @@
 {
   "name": "generator-ansible-rh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yeoman generator for ansible 2.+ playbooks and roles.",
   "license": "MIT",
   "repository": "dischord01/generator-ansible-rh",
@@ -15,14 +15,15 @@
     "generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.17.0",
     "coffee-script": "^1.8.0",
-    "handlebars": "^2.0.0"
+    "handlebars": "^2.0.0",
+    "shell.js": "^1.0.5",
+    "yeoman-generator": "^0.17.0"
   },
   "devDependencies": {
     "mocha": "*"
   },
   "peerDependencies": {
-    "yo": ">=1.0.0"
+    "yo": ">=1.8.0"
   }
 }

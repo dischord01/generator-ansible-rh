@@ -1,12 +1,30 @@
 # {{ name }}
-`{{ name }}` is a great ansible playbook.
+`{{ name }}` Ansible Playbook.
 
 # Setup
-`gem install librarian-ansible`
-`librarian-ansible install`
+
 
 # Usage
-## Development (if you used `--vagrant` flag: `vagrant up`
+
+
+# Development 
+
+Use `--vagrant` flag to add a Vagrantfile to the Playbook for local testing.
+
+```
+vagrant up
+vagrant provision
+```
+ 
+
 When you make changes, run `vagrant provision` to update your vms.
-## Production
+
+# Run Playbook
+
 `ansible-playbook -i production site.yml`
+
+# Ansible Galaxy
+
+```
+ansible-galaxy install -r galaxy.yml
+```
